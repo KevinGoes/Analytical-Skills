@@ -4,11 +4,9 @@ De random generators en tests staan allemaal in het bestand SummatieveHuiswerkop
 
 file = MergeSort
 
-
 Lineair search:
 
 file = LineairSearch
-
 
 Binair search:
 
