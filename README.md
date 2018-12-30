@@ -6,5 +6,5 @@ file = MergeSort
 Lineair search:                       
 file = LineairSearch
 
-Binair search:
+Binair search:                        
 file = BinairSearch
