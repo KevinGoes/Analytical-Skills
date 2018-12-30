@@ -1,6 +1,5 @@
 # Analytical-Skills
-Implementatie MergeSort: 
-De random generators en tests staan allemaal in het bestand SummatieveHuiswerkoprdacht_4
+Implementatie MergeSort:                              
 file = MergeSort
 
 Lineair search:                       
