@@ -2,16 +2,16 @@ import random
 
 
 def BinairSearch(target, lst):
-    if len(lst) == 0:
-        return False
+    if len(lst) == 0:                                       # Als er geen items meer in de lijst zitten
+        return False                                        # Geef niet terug
     else:
-        midden = int(len(lst) / 2)
-        if target == lst[midden]:
-            return True
-        elif target > lst[midden]:
-            return BinairSearch(target, lst[midden+1:])
-        else:
-            return BinairSearch(target, lst[:midden])
+        midden = int(len(lst) / 2)                          # Midden bepalen
+        if target == lst[midden]:                           # Als de target het midden is, zit het in de lijst
+            return True                                     # Geef wel terug
+        elif target > lst[midden]:                          # Als het nummer van de target groter is dan het midden
+            return BinairSearch(target, lst[midden+1:])     # Recursie met lijst groter dan midden
+        else:                                               # Als het nummer van de target kleiner is dan het midden
+            return BinairSearch(target, lst[:midden])       # Recursie met lijst kleinder dan midden
 
 
 def random_lst_no_duplicate():
