@@ -8,5 +8,5 @@ file = LineairSearch
 Binair search:                        
 file = BinairSearch
 
-Documentatie Huiswerkopdracht (word bestand):
+Documentatie Huiswerkopdracht (word bestand):     
 file = Summatieve huiswerkopdracht 4: Sorteren
